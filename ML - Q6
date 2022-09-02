@@ -1,0 +1,3 @@
+sentence="I am a teacher and I love to inspire and teach people"
+unique_letter= set(sentence.split())
+print("No. of unique words are:", len(unique_letter))

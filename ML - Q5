@@ -1,5 +1,0 @@
-radius = int((input("enter radius")))
-area_of_circle = 3.14*(radius**2)
-circum_of_circle = 2*3.14*radius
-print("Area Of Circle", area_of_circle)
-print("Circumference of circle", circum_of_circle)
