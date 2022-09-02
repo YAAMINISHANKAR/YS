@@ -1,28 +1,5 @@
-it_companies={'Google','Apple','Amazon','Oracle','IBM','Facebook','Microsoft'}
-A = {19,22,24,20,25,26}
-B = {19,22,20,25,26,24,28,27}
-age = [22,19,24,25,26,24,25,24]
-print("Total IT Companies:", len(it_companies))
-print("The 7 IT Companies are:", it_companies)
-it_companies.add("Twitter")
-print("After adding new IT company",it_companies)
-it_companies.update(["TCS","ZOHO"])
-print("After adding multiple IT companies", it_companies)
-it_companies.remove("TCS")
-print("After removing one values",it_companies)
-print("Remove method raises an error when value doesn't exists where as discard method doesn't raise an error")
-
-a_union_b=A.union(B)
-print("A Join B",a_union_b)
-a_intersect_b=A.intersection(B)
-print("A Intersection B", a_intersect_b)
-print("Is A is subset of B:",A.issubset(B))
-print("Is A and B are disjoint sets:",A.isdisjoint(B))
-print("The symmetric difference between A and B",A.symmetric_difference(B))
-A.clear()
-B.clear()
-print("Deleting set A", A)
-print("Deleting set B", B)
-age_set= set(age)
-print("Converted age list to set", age_set)
-print("Difference between length of age list and length of age set is: ", len(age)-len(age_set))
+radius = int((input("enter radius")))
+area_of_circle = 3.14*(radius**2)
+circum_of_circle = 2*3.14*radius
+print("Area Of Circle", area_of_circle)
+print("Circumference of circle", circum_of_circle)
