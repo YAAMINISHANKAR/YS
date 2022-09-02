@@ -1,0 +1,9 @@
+dog=dict()
+dog[("Name","Color","Breed","Legs","Age")]=''
+student={"first_name":"Yaamini","last_name":"Shankar","gender":"Female","age":21,"martial_status":"Single","skills":['html','SQL'],"country":"India","city":"Chennai","address":"402, Sholinganallur"}
+print(student)
+print("Length of the student:",len(student))
+print("student skills",student["skills"],type(student["skills"]))
+student["skills"]=student["skills"]+["C++","Python"]
+print("keys",student.keys())
+print("values",list(student.values()))
