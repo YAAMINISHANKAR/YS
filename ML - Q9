@@ -1,8 +1,0 @@
-no_of_students = int(input("Enter no of students:"))
-weights_in_lbs=[]
-weights_in_kg=[]
-for stu in range(no_of_students):
-    weights_in_lbs.append(int(input("Enter weight of "+str(stu)+":" )))
-    weights_in_kg.append(round(weights_in_lbs[stu]*0.453592,2))
-print("Weights in Lb", weights_in_lbs)
-print("Weights in Kg",weights_in_kg)
