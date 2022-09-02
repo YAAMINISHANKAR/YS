@@ -1,0 +1,8 @@
+brothers=("Soban","Dev","Satish")
+sisters=("Shambavi","Dhanu","Appu")
+siblings= brothers+sisters
+print("My Siblings",siblings)
+print("I have",len(siblings),"siblings")
+siblings=("Shankar","Chitra")+siblings
+family_members=siblings
+print("Family Members",family_members)
